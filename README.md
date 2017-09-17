@@ -1,6 +1,6 @@
 # Binary-Alloy-Thermodynamic-Simulation
 
-USING THIS SIMULATION SOFTEWARE:
+USING THIS SIMULATION SOFTWARE:
 1. Install Python3 and these non-standard packages: matplotlib, plotly, numpy
 2. To run simulation with one set of parameters only, use main.py file
 
@@ -16,7 +16,7 @@ parameters and the atomic arrangement, within the confines of this model.
 For more detail please see: Simulation Details.pdf
 
 
-EXPLANATIN OF KEY SIMULATION PARAMETERS:
+EXPLANATION OF KEY SIMULATION PARAMETERS:
 1. T = system temperature, in Kelvin, 300 K is a good starting point
 2. alloyFraction = percentage of atoms in the system that will be foreign/alloying atoms, integer values between
 1 and 50 are recommended
