@@ -30,3 +30,4 @@ recommended to use the plotEnergyConvergence function in simulationAnalysis.py t
 are required before system energy stops changing by large amounts with more iterations, as the optimum no.
 of iterations varies depending on gridLength & no. of dimensions; e.g. 250,000 is suitable for 70x70 grid in 2D
 6. dimensions = no. of dimensions to run simulation in; valid values are 2 or 3, for 2D or 3D
+7. multiProcess = set to True to enable multiprocessing (use multiple cpu cores), False to disable
