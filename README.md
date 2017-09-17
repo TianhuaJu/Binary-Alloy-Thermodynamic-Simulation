@@ -17,16 +17,16 @@ For more detail please see: Simulation Details.pdf
 
 
 Explanation of simulation parameters:
->T = system temperature, in Kelvin, 300 K is a good starting point
->alloyFraction = percentage of atoms in the system that will be foreign/alloying atoms, integer values between
+--T = system temperature, in Kelvin, 300 K is a good starting point
+--alloyFraction = percentage of atoms in the system that will be foreign/alloying atoms, integer values between
 1 and 50 are recommended
->E_am = interaction energy (in eV) between unlike (host & alloying) atoms; it is recommended to use values
+--E_am = interaction energy (in eV) between unlike (host & alloying) atoms; it is recommended to use values
 of -0.1, 0.0 or 0.1 eV
->gridLength = length of numpy array. E.g. for 2D, gridLength=5 will run simulation on a 5x5 array; values of
+--gridLength = length of numpy array. E.g. for 2D, gridLength=5 will run simulation on a 5x5 array; values of
 70 and 40 are recommended for 2D and 3D simulations respectively
-nIterations = no. of iterations that simulation will run for, with a single set of parameters; on one iteration
+--nIterations = no. of iterations that simulation will run for, with a single set of parameters; on one iteration
 a random pair of nearest neighbour atoms are swapped if it is energetically favourable to do so; It is
 recommended to use the plotEnergyConvergence function in simulationAnalysis.py to determine how many iterations
 are required before system energy stops changing by large amounts with more iterations, as the optimum no.
 of iterations varies depending on gridLength & no. of dimensions; e.g. 250,000 is suitable for 70x70 grid in 2D
->dimensions = no. of dimensions to run simulation in; valid values are 2 or 3, for 2D or 3D
+--dimensions = no. of dimensions to run simulation in; valid values are 2 or 3, for 2D or 3D
